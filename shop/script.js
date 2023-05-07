@@ -12,7 +12,7 @@
 //check wether the user loged in or not 
 let currentUser = sessionStorage.getItem("currentUser");
 if(!currentUser)
-  window.location.href = "/";
+  window.location.href = "/f3shopping-cart/";
 
  //get user cart stored previously
  let cart = [];
@@ -23,7 +23,7 @@ if(!currentUser)
 //for loging out 
 document.querySelector("#logout").addEventListener("click",(e)=>{
   sessionStorage.removeItem("currentUser");
-  window.location.href = "/"
+  window.location.href = "/f3shopping-cart/"
 })  
 
 let all, mens, womens, jewellery, electronic; //product categories
