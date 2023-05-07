@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <nav>
+      <div class="brand">
+        <a href="/">MeShop.</a>
+      </div>
+      <div class="nav-items">
+        <a href="/">Home</a>
+        <a href="/shop">Shop</a>
+      </div>
+   </nav>
+    <main>
+     
+      <div class="profile">
+        <form id="profile-form">
+          <p>My Profile</p>
+          <input type="text" placeholder="First Name" name="fname" id="fname">
+          <input type="text" placeholder="Last Name" name="lname" id="lname">
+          <button type="submit">Save Info</button>
+        </form>
+      </div>
+
+        <div class="edit">
+          <form id="edit-form">
+            <p>Edit Password</p>
+            <input type="text" placeholder="Old Password" id="old-pass" name = "oldpass" required>
+            <input type="text" placeholder="New Password" id="new-pass" name = "newpass" required>
+            <input type="text" placeholder="Confirm New Password" id="conf-new-pass" name= "confnewpass" required>
+            <button type="submit">Change Password</button>
+            <button id="logout-btn">Logout</button>
+          </form>
+        </div>
+      
+    </main>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
