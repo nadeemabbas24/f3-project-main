@@ -18,7 +18,7 @@ document.getElementById("rzp-button1").onclick = function (e) {
        localStorage.setItem(currentUser, JSON.stringify(user));
 
        //successful pay redirect to shopping page
-       window.location.href = "/shop"
+       window.location.href = "/f3shopping-cart/shop"
     },
     description: "This is your order", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
     theme: {
