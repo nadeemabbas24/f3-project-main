@@ -17,7 +17,7 @@ form.addEventListener("submit", (e)=>{
       {
         form.reset();
         localStorage.setItem(user.email, JSON.stringify(user))
-        window.location.assign("/login");
+        window.location.assign("/f3shopping-cart/login");
         console.log(user);
       }
 
