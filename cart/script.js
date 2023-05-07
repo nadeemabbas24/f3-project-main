@@ -78,6 +78,6 @@ function updateTotal(cart){
 updateCart(cartItem);
 
 document.querySelector(".checkout-btn").addEventListener("click",(e)=>{
-    window.location.href = "/razorpay";
+    window.location.href = "/f3shopping-cart/razorpay";
 })
 
