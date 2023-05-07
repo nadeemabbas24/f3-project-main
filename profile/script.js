@@ -39,5 +39,5 @@ changePass.addEventListener("submit", (e)=>{
 
 document.querySelector("#logout-btn").addEventListener("click", (e)=>{
     e.preventDefault();
-   window.location.href="/"; 
+   window.location.href="/f3shopping-cart/"; 
 })
