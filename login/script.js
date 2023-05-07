@@ -10,7 +10,7 @@ form.addEventListener("submit",(e)=>{
     if(user == null)
     {
         alert("No user found with this Email please register yourself first to successful login.");
-        window.location.href = "/signup"
+        window.location.href = "/f3shopping-cart/signup"
     }
     else 
     if(user.password != password)
@@ -18,7 +18,7 @@ form.addEventListener("submit",(e)=>{
         e.target.password.focus();
     }
     else
-    { window.location.assign("/shop");
+    { window.location.assign("/f3shopping-cart/shop");
         sessionStorage.setItem("currentUser",email);   
 
     }
